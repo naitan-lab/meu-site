@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto de Transição</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- TELA INICIAL -->
+    <div id="tela-inicial" class="tela">
+      <h1>Apresento a você, meu novo projeto</h1>
+      <button onclick="mostrarLogin()">Entrar</button>
+    </div>
+
+    <!-- TELA LOGIN -->
+    <div id="tela-login" class="tela oculto">
+      <h2>Login</h2>
+      <input type="text" id="usuario" placeholder="Usuário" />
+      <input type="password" id="senha" placeholder="Senha" />
+      <button onclick="fazerLogin()">Acessar</button>
+    </div>
+
+    <!-- TELA FINAL -->
+    <div id="tela-final" class="tela oculto">
+      <h2>Parabéns momo 🎉</h2>
+      <p>VOCÊ É MEU MAIS LINDO PROJETO!!!</p>
+      <div class="galeria">
+        <img src="IMG-20250625-WA0010.jpg" alt="Imagem 1" />
+        <img src="IMG-20250625-WA0011.jpg" alt="Imagem 2" />
+        <img src="IMG-20250625-WA0012.jpg" alt="Imagem 3" />
+        <img src="IMG-20250625-WA0013.jpg" alt="Imagem 4" />
+        <img src="IMG-20250625-WA0007.jpg" alt="Imagem 5" />
+        <img src="IMG-20250625-WA0008.jpg" alt="Imagem 6" />
+        <img src="IMG-20250625-WA0009.jpg" alt="Imagem 7" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
